@@ -1,0 +1,87 @@
+Buatkan sebuah aplikasi web manajemen keuangan pribadi canggih, berbasis web responsif, dengan tiga fitur utama berikut:
+
+⿡ Flow Manajemen Keuangan Pribadi (Income & Expenses Tracker)
+User dapat Login/Register untuk masuk ke dashboard personal.
+
+Fitur untuk menambahkan transaksi dengan memilih:
+
+Jenis: Pemasukan / Pengeluaran.
+
+Kategori: Makanan, Transportasi, Hiburan, dsb.
+
+Detail: Nominal, Tanggal, Catatan (opsional).
+
+Setelah disimpan, data langsung mengupdate grafik pemasukan/pengeluaran.
+
+Jika user melewati batas anggaran tertentu, munculkan notifikasi peringatan anggaran.
+
+Sistem AI menganalisis pola pengeluaran user → berikan saran penghematan otomatis, seperti: “Kurangi makan di luar.”
+
+Tampilkan juga rekomendasi investasi yang sesuai dengan pola transaksi (misal: emas, saham, reksa dana).
+
+Sertakan fitur ‘Keputusan Belanja’, untuk mengecek apakah pembelian tertentu bijak atau tidak berdasarkan kebiasaan user.
+
+⿢ Flow Nabung & Simulasi Target Keuangan
+User bisa membuat target menabung (contoh: Beli laptop).
+
+Input:
+
+Tujuan
+
+Jumlah Uang (contoh: Rp 10 juta)
+
+Deadline (contoh: 6 bulan)
+
+Sistem membuat simulasi tabungan harian/mingguan.
+
+Progress bar meningkat seiring update menabung user.
+
+Reminder otomatis jika jadwal nabung terlewat.
+
+Data target terhubung dengan transaksi & laporan.
+
+Visualisasi grafik tren pengeluaran & pemasukan.
+
+Prediksi kondisi keuangan ke depan (AI-based).
+
+Opsi download laporan tiap bulan (.PDF dan .Excel).
+
+(Opsional) Integrasi rekening bank / e-wallet (misalnya via API Plaid atau Flip.id) untuk otomatisasi pencatatan.
+
+⿣ Flow Kalkulator Pajak Otomatis
+User dapat menginput penghasilan manual atau otomatis dari transaksi.
+
+Pilih jenis pajak (PPh21, PPh23, pajak freelancer, dll).
+
+Sistem menghitung otomatis total pajak + simulasi penghematan pajak.
+
+Tampilkan strategi pengurangan pajak.
+
+Download laporan pajak dalam PDF atau Excel.
+
+Teknologi yang digunakan:
+Frontend: React.js + TailwindCSS
+
+Backend: Node.js + Express atau Laravel
+
+Database: MongoDB / PostgreSQL
+
+Auth: JWT atau Laravel Sanctum
+
+Charting: Chart.js atau Recharts
+
+AI Saran: Gunakan model open-source seperti OpenAI API atau embedding dengan vector DB (opsional).
+
+PDF/Excel Export: jsPDF, SheetJS, atau Laravel Excel
+
+Optional API: Plaid, Flip, atau E-Wallet APIs untuk integrasi rekening
+
+Tambahkan UI yang clean dan mobile responsive. Gunakan prinsip UX seperti:
+
+Fokus ke simplicity
+
+Navigation mudah
+
+Visualisasi data jelas
+
+Theme gelap & terang

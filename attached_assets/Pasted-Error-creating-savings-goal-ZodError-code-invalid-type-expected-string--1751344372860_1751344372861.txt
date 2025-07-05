@@ -1,0 +1,106 @@
+Error creating savings goal: ZodError: [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "number",
+    "path": [
+      "targetAmount"
+    ],
+    "message": "Expected string, received number"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "number",
+    "path": [
+      "currentAmount"
+    ],
+    "message": "Expected string, received number"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "string",
+    "path": [
+      "userId"
+    ],
+    "message": "Expected number, received string"
+  }
+]
+    at get error [as error] (file:///home/runner/workspace/node_modules/zod/lib/index.mjs:587:31)
+    at ZodObject.parse (file:///home/runner/workspace/node_modules/zod/lib/index.mjs:663:22)
+    at <anonymous> (/home/runner/workspace/server/routes.ts:308:48)
+    at Layer.handle [as handle_request] (/home/runner/workspace/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/workspace/node_modules/express/lib/router/route.js:149:13)
+    at authenticateToken (/home/runner/workspace/server/auth.ts:73:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  issues: [
+    {
+      code: 'invalid_type',
+      expected: 'string',
+      received: 'number',
+      path: [Array],
+      message: 'Expected string, received number'
+    },
+    {
+      code: 'invalid_type',
+      expected: 'string',
+      received: 'number',
+      path: [Array],
+      message: 'Expected string, received number'
+    },
+    {
+      code: 'invalid_type',
+      expected: 'number',
+      received: 'string',
+      path: [Array],
+      message: 'Expected number, received string'
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  errors: [
+    {
+      code: 'invalid_type',
+      expected: 'string',
+      received: 'number',
+      path: [Array],
+      message: 'Expected string, received number'
+    },
+    {
+      code: 'invalid_type',
+      expected: 'string',
+      received: 'number',
+      path: [Array],
+      message: 'Expected string, received number'
+    },
+    {
+      code: 'invalid_type',
+      expected: 'number',
+      received: 'string',
+      path: [Array],
+      message: 'Expected number, received string'
+    }
+  ]
+}
+4:29:09 AM [express] POST /api/savings-goals 500 in 327ms :: {"message":"Failed to create savings go…
+4:32:09 AM [vite] hmr update /src/components/Savings.tsx, /src/index.css?v=QttPsy5bHY32DjyRvrTOT
+4:32:10 AM [vite] hmr update /src/components/AddTransactionModal.tsx, /src/index.css?v=QttPsy5bHY32DjyRvrTOT
+4:32:10 AM [vite] hmr update /src/components/Dashboard.tsx, /src/index.css?v=QttPsy5bHY32DjyRvrTOT
+4:32:13 AM [vite] Internal server error: /home/runner/workspace/client/src/components/AddTransactionModal.tsx: Identifier 'transactionSchema' has already been declared. (351:6)
+
+  349 | import { isUnauthorizedError } from "@/lib/authUtils";
+  350 |
+> 351 | const transactionSchema = z.object({
+      |       ^
+  352 |   amount: z.string().min(1, "Jumlah wajib diisi"),
+  353 |   description: z.string().min(1, "Deskripsi wajib diisi"),
+  354 |   categoryId: z.string().min(1, "Kategori wajib dipilih"),
+  Plugin: vite:react-babel
+  File: /home/runner/workspace/client/src/components/AddTransactionModal.tsx:351:6
+  349|  import { isUnauthorizedError } from "@/lib/authUtils";
+  350|  
+  351|  const transactionSchema = z.object({
+     |        ^
+  352|    amount: z.string().min(1, "Jumlah wajib diisi"),
+  353|    description: z.string().min(1, "Deskripsi wajib diisi"),

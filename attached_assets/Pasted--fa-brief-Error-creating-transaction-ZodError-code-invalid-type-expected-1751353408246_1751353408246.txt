@@ -1,0 +1,63 @@
+ fa-brief…
+Error creating transaction: ZodError: [
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "string",
+    "path": [
+      "userId"
+    ],
+    "message": "Expected number, received string"
+  }
+]
+    at get error [as error] (file:///home/runner/workspace/node_modules/zod/lib/index.mjs:587:31)
+    at ZodObject.parse (file:///home/runner/workspace/node_modules/zod/lib/index.mjs:663:22)
+    at <anonymous> (/home/runner/workspace/server/routes.ts:203:55)
+    at Layer.handle [as handle_request] (/home/runner/workspace/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/workspace/node_modules/express/lib/router/route.js:149:13)
+    at authenticateToken (/home/runner/workspace/server/auth.ts:73:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  issues: [
+    {
+      code: 'invalid_type',
+      expected: 'number',
+      received: 'string',
+      path: [Array],
+      message: 'Expected number, received string'
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  errors: [
+    {
+      code: 'invalid_type',
+      expected: 'number',
+      received: 'string',
+      path: [Array],
+      message: 'Expected number, received string'
+    }
+  ]
+}
+6:54:39 AM [express] POST /api/transactions 500 in 309ms :: {"message":"Failed to create transaction…
+6:54:57 AM [express] GET /api/transactions 401 in 1ms :: {"message":"Token akses diperlukan"}
+6:58:37 AM [express] GET /api/transactions 401 in 0ms :: {"message":"Token akses diperlukan"}
+7:03:08 AM [vite] hmr update /src/App.tsx?v=uvh1QNT12rqG2Lpi6S2Pq, /src/index.css?v=uvh1QNT12rqG2Lpi6S2Pq, /src/pages/Home.tsx, /src/components/AddTransactionModal.tsx, /src/components/TaxCalculator.tsx, /src/components/Dashboard.tsx, /src/components/FinancialInsights.tsx, /src/components/Transactions.tsx, /src/components/Reports.tsx, /src/components/Savings.tsx
+7:03:13 AM [vite] hmr update /src/components/AddTransactionModal.tsx, /src/index.css?v=uvh1QNT12rqG2Lpi6S2Pq
+7:03:15 AM [vite] hmr update /src/components/Savings.tsx, /src/index.css?v=uvh1QNT12rqG2Lpi6S2Pq
+7:03:15 AM [vite] Internal server error: /home/runner/workspace/client/src/components/Savings.tsx: Unexpected token (737:123)
+
+  735 |               </div>
+  736 |
+> 737 |               <div className="p-4 bg-blue-50 dark:bg-blue-900/20 rounded-lg                <div className="flex items-start">
+      |                                                                                                                            ^
+  738 |                   <InfoIcon className="h-5 w-5 text-blue-500 mr-2 mt-0.5" />
+  739 |                   <div>
+  740 |                     <p className="text-sm font-medium text-blue-700 dark:text-blue-300">Tips Mencapai Target:</p>
+  Plugin: vite:react-babel
+  File: /home/runner/workspace/client/src/components/Savings.tsx:737:123
+  735|                </div>
+  736|  
+  737|                <div className="p-4 bg-blue-50 dark:bg-blue-900/20 rounded-lg                <div className="flex items-start">
+     |                                                                                                                             ^
+  738|                    <InfoIcon className="h-5 w-5 text-blue-500 mr-2 mt-0.5" />
+  739|                    <div>
