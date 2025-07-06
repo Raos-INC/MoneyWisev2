@@ -1,0 +1,11 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"u415928144_MoneyWise"},
+{"type":"table","name":"ai_insights","database":"u415928144_MoneyWise","data":
+[
+{"id":"1","user_id":"1","title":"Komitmen Utama: Cicilan Rumah","message":"Cicilan rumah sebesar Rp 93.753.534 mendominasi pengeluaran Anda. Ini menunjukkan komitmen finansial besar yang perlu diatur dengan cermat agar tidak mengganggu arus kas untuk kebutuhan lainnya.","type":"spending_pattern","priority":"medium","actionable":"1","is_read":"0","created_at":"2025-07-04 15:42:21"},
+{"id":"2","user_id":"1","title":"Optimalisasi Pengeluaran 'Makan & Mainan'","message":"Pengeluaran 'Beli Makan dan Mainan' sebesar Rp 5.361.361 cukup signifikan. Coba pecah detailnya (makan vs. mainan) dan tetapkan anggaran spesifik. Mungkin ada ruang untuk menghemat di kategori diskresioner ini.","type":"saving_tip","priority":"medium","actionable":"1","is_read":"0","created_at":"2025-07-04 15:42:21"},
+{"id":"3","user_id":"1","title":"Diversifikasi Sumber Penghasilan Pasif","message":"Anda memiliki pemasukan besar dari dividen BBCA dan penjualan BREN. Ini menunjukkan potensi investasi yang baik. Pertimbangkan diversifikasi portofolio ke instrumen lain seperti obligasi atau properti sewa untuk pertumbuhan jangka panjang.","type":"investment_suggestion","priority":"high","actionable":"1","is_read":"0","created_at":"2025-07-04 15:42:21"}
+]
+}
+]

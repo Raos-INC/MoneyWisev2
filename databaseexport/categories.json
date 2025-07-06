@@ -1,0 +1,21 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"u415928144_MoneyWise"},
+{"type":"table","name":"categories","database":"u415928144_MoneyWise","data":
+[
+{"id":"27","user_id":"1","name":"Gaji","type":"income","color":"#10B981","icon":"fas fa-briefcase","created_at":"2025-07-04 15:23:07","updated_at":"2025-07-04 15:23:07"},
+{"id":"28","user_id":"1","name":"Bonus","type":"income","color":"#059669","icon":"fas fa-gift","created_at":"2025-07-04 15:23:07","updated_at":"2025-07-04 15:23:07"},
+{"id":"29","user_id":"1","name":"Investasi","type":"income","color":"#047857","icon":"fas fa-chart-line","created_at":"2025-07-04 15:23:07","updated_at":"2025-07-04 15:23:07"},
+{"id":"30","user_id":"1","name":"Freelance","type":"income","color":"#065F46","icon":"fas fa-laptop","created_at":"2025-07-04 15:23:07","updated_at":"2025-07-04 15:23:07"},
+{"id":"31","user_id":"1","name":"Lainnya","type":"income","color":"#064E3B","icon":"fas fa-plus","created_at":"2025-07-04 15:23:08","updated_at":"2025-07-04 15:23:08"},
+{"id":"32","user_id":"1","name":"Makanan","type":"expense","color":"#EF4444","icon":"fas fa-utensils","created_at":"2025-07-04 15:23:08","updated_at":"2025-07-04 15:23:08"},
+{"id":"33","user_id":"1","name":"Transportasi","type":"expense","color":"#3B82F6","icon":"fas fa-car","created_at":"2025-07-04 15:23:08","updated_at":"2025-07-04 15:23:08"},
+{"id":"34","user_id":"1","name":"Hiburan","type":"expense","color":"#F59E0B","icon":"fas fa-gamepad","created_at":"2025-07-04 15:23:08","updated_at":"2025-07-04 15:23:08"},
+{"id":"35","user_id":"1","name":"Kesehatan","type":"expense","color":"#10B981","icon":"fas fa-heart","created_at":"2025-07-04 15:23:08","updated_at":"2025-07-04 15:23:08"},
+{"id":"36","user_id":"1","name":"Belanja","type":"expense","color":"#8B5CF6","icon":"fas fa-shopping-bag","created_at":"2025-07-04 15:23:08","updated_at":"2025-07-04 15:23:08"},
+{"id":"37","user_id":"1","name":"Tagihan","type":"expense","color":"#DC2626","icon":"fas fa-file-invoice","created_at":"2025-07-04 15:23:08","updated_at":"2025-07-04 15:23:08"},
+{"id":"38","user_id":"1","name":"Pendidikan","type":"expense","color":"#7C3AED","icon":"fas fa-graduation-cap","created_at":"2025-07-04 15:23:08","updated_at":"2025-07-04 15:23:08"},
+{"id":"39","user_id":"1","name":"Lainnya","type":"expense","color":"#6B7280","icon":"fas fa-ellipsis-h","created_at":"2025-07-04 15:23:08","updated_at":"2025-07-04 15:23:08"}
+]
+}
+]

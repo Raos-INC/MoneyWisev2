@@ -1,0 +1,10 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"u415928144_MoneyWise"},
+{"type":"table","name":"users","database":"u415928144_MoneyWise","data":
+[
+{"id":"","email":"ryanadmin@admin.me","password":"$2b$12$yUG0Z7uuFyZraQn0TJjEJODzaGfS9QgNhMZsVA1Wk1htJKRvb7kwy","name":"Ryan","created_at":"2025-07-06 14:47:07","updated_at":"2025-07-06 14:47:07"},
+{"id":"1","email":"lele123@yahut.com","password":"$2b$12$h69Dc.BblgcV\/NwniSpsc.eTT2.wcQ56o7ejIOtD.CMK0lNqJhDjK","name":"lele","created_at":"2025-07-04 14:47:30","updated_at":"2025-07-04 15:23:06"}
+]
+}
+]

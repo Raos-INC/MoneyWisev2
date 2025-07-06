@@ -1,8 +1,14 @@
 [variables]
 NODE_ENV = "production"
 
-[phases.build]
-cmds = ["npm ci", "npm run build"]
+[phases.setup]
+nixPkgs = ["nodejs_20"]
 
-[phases.start]
-cmd = "npm run start"
+[phases.install]
+cmds = ["npm ci --omit=dev"]
+
+[phases.build]
+cmds = ["npm run build"]
+
+[start]
+cmd = "npm start"

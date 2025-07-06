@@ -1,0 +1,15 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"u415928144_MoneyWise"},
+{"type":"table","name":"transactions","database":"u415928144_MoneyWise","data":
+[
+{"id":"1","user_id":"1","category_id":"29","amount":"74275843.00","description":"Dividen BBCA","type":"income","date":"2025-07-04","created_at":"2025-07-04 15:24:09","updated_at":"2025-07-04 15:24:09"},
+{"id":"2","user_id":"1","category_id":"36","amount":"5361361.00","description":"Beli Makan Dan Mainan","type":"expense","date":"2025-07-04","created_at":"2025-07-04 15:24:23","updated_at":"2025-07-04 15:24:23"},
+{"id":"3","user_id":"1","category_id":"38","amount":"15734273.00","description":"Bayar UKT Kuliah","type":"expense","date":"2025-07-04","created_at":"2025-07-04 15:24:39","updated_at":"2025-07-04 15:24:39"},
+{"id":"4","user_id":"1","category_id":"28","amount":"7153132.00","description":"Bonus Kantor","type":"income","date":"2025-07-03","created_at":"2025-07-04 15:25:00","updated_at":"2025-07-04 15:25:00"},
+{"id":"5","user_id":"1","category_id":"29","amount":"25748334.00","description":"Sell BREN","type":"income","date":"2025-07-01","created_at":"2025-07-04 15:25:52","updated_at":"2025-07-04 15:25:52"},
+{"id":"6","user_id":"1","category_id":"37","amount":"93753534.00","description":"Cicilan Rumah","type":"expense","date":"2025-07-01","created_at":"2025-07-04 15:26:15","updated_at":"2025-07-04 15:26:15"},
+{"id":"7","user_id":"1","category_id":"30","amount":"82747373.00","description":"Projek Besar Dari US","type":"income","date":"2025-07-02","created_at":"2025-07-04 15:27:12","updated_at":"2025-07-04 15:27:12"}
+]
+}
+]
